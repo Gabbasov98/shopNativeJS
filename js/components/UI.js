@@ -7,7 +7,7 @@ class UI {
         productsDOM.innerHTML = ""
         data.forEach(item => productsDOM.innerHTML +=
             `
-            <a href="${window.location.origin}/catalog-item.html?id=${item.id}" class="products-item">
+            <a href="${window.location.href}catalog-item.html?id=${item.id}" class="products-item">
                 <div class="products-item__img">
                     <img src="${item.image}" alt="product item"/>                
                 </div>
